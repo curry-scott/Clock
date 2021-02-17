@@ -1,24 +1,30 @@
 #body{
     background-color: ivory;
+    
 }
 
 #clock { 
     background-color: steelblue;
     font-family: sans-serif; 
-    font-size: 50px;
-    width: 300px; 
+    font-size: 35px;
+    font-weight: bolder;
+    width: 250px; 
     color:black;
     text-align: center; 
-    border: 2px solid black; 
-    border-radius: 20px; 
+    border: 5px solid black; 
+    border-radius: 50px; 
+    margin: auto;
+    
+    
   } 
 
   #btn {
-        margin-top: 6px;
+        margin: auto;
+        margin-top: 10px;
         display: flex;
         max-width: 250px;
-        color: blue;
         justify-content: center;
         align-items: center;
+        
   }
   
