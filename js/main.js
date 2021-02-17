@@ -1,29 +1,30 @@
-const clock = document.getElementById('clock');
+let clock = document.getElementById('clock');
+const time = document.getElementById('clock');
+const btn = document.querySelector('button');
 const b12 = document.getElementById('12');
 const b24 = document.getElementById('24');
-let base = 12;
-b24.onclick = function milTime() {
-    base =24;
-    updateTime()
+
+
+function convertHourToMilitary() {
+
+    if (militaryTime === false) {
+        militaryTime = true;
+
+    }
 }
-b12.onclick = function regTime() {
-    base = 12;
-    updateTime()
+function convertHourDefault() {
+    if (militaryTime === true) {
+        militaryTime = false;
+    }
+
+}
 }
 
-function showTime() {
-    let time = new Date(); 
-    let milTime = currentTime.getHours();
+function displayClock() {
+    let currentTime = new Date();
+    let hoursin24 = currentTime.getHours();
     let minutes = currentTime.getMinutes();
     let seconds = currentTime.getSeconds();
-    let amOrPm = '';
-    if (hoursin24 >= 12) {
-        amOrPm = 'PM';
-    }
-    else{
-        amOrPm = 'AM';
-    }
-    if (hoursin24 > 12 & militaryTime === false) {
-        hoursin24 = (24 - hoursin24) - 12;
-    }
+    lat amOrPm = ''; 
+
 }
