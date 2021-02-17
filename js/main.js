@@ -5,20 +5,8 @@ const b12 = document.getElementById('12');
 const b24 = document.getElementById('24');
 
 
-function convertHourToMilitary() {
 
-    if (militaryTime === false) {
-        militaryTime = true;
 
-    }
-}
-function convertHourDefault() {
-    if (militaryTime === true) {
-        militaryTime = false;
-    }
-
-}
-}
 
 function displayClock() {
     let currentTime = new Date();
