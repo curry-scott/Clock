@@ -10,3 +10,11 @@ b12.onclick = function regTime() {
     base = 12;
     updateTime()
 }
+
+function showTime() {
+    let time = new Date(); 
+    let milTime = currentTime.getHours();
+    let minutes = currentTime.getMinutes();
+    let seconds = currentTime.getSeconds();
+    let amOrPm = '';
+}
