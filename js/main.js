@@ -8,11 +8,9 @@ const b24 = document.getElementById('24');
 
 
 
-function displayClock() {
-    let today = new Date();
-    let hours = today.getHours();
-    let minutes = today.getMinutes();
-    let seconds = today.getSeconds();
-    lat amOrPm = ''; 
-
-}
+function showTime() { 
+    let time = new Date(); 
+    let hour = time.getHours(); 
+    let min = time.getMinutes(); 
+    let sec = time.getSeconds(); 
+    am_pm = "AM"; 
