@@ -17,4 +17,13 @@ function showTime() {
     let minutes = currentTime.getMinutes();
     let seconds = currentTime.getSeconds();
     let amOrPm = '';
+    if (hoursin24 >= 12) {
+        amOrPm = 'PM';
+    }
+    else{
+        amOrPm = 'AM';
+    }
+    if (hoursin24 > 12 & militaryTime === false) {
+        hoursin24 = (24 - hoursin24) - 12;
+    }
 }
