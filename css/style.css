@@ -3,17 +3,26 @@
     
 }
 
-#clock { 
+#clock {
     background-color: steelblue;
-    font-family: sans-serif; 
+    font-family: sans-serif;
     font-size: 35px;
     font-weight: bolder;
-    width: 250px; 
-    color:black;
-    text-align: center; 
-    border: 5px solid black; 
-    border-radius: 50px; 
+    width: 250px;
+    color: black;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 50px;
     margin: auto;
-      
-  } 
+    }
+.push {
+     margin: auto;
+     margin-top: 10px;
+     display: flex;
+     max-width: 250px;
+     align-items: center;
   
+}
+
+
+
