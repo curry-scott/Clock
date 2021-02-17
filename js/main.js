@@ -9,10 +9,10 @@ const b24 = document.getElementById('24');
 
 
 function displayClock() {
-    let currentTime = new Date();
-    let hoursin24 = currentTime.getHours();
-    let minutes = currentTime.getMinutes();
-    let seconds = currentTime.getSeconds();
+    let today = new Date();
+    let hours = today.getHours();
+    let minutes = today.getMinutes();
+    let seconds = today.getSeconds();
     lat amOrPm = ''; 
 
 }
