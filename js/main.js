@@ -19,11 +19,11 @@ function displayClock() {
     let minutes = currentTime.getMinutes();
     let seconds = currentTime.getSeconds();
     let amORPm = '';
-    if (hoursin24 >= 12) {
-        amORPm = 'PM'
+    if (hoursin24 < 12) {
+        amORPm = 'AM'
     }
     else{
-        amORPm = 'AM'
+        amORPm = 'PM'
     }
     if (hoursin24 >12 & militaryTime === false) {
         hoursin24 = (24 - hoursin24) - 12;
