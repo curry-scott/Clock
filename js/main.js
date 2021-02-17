@@ -1,4 +1,4 @@
-let clock = document.getElementById('clock');
+const clock = document.getElementById('clock');
 const time = document.getElementById('clock');
 const btn = document.querySelector('button');
 const b12 = document.getElementById('12');

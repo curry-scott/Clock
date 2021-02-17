@@ -5,3 +5,4 @@ Digital Clock
 3. Add the date (Day, Month, and year)
 4. Button for toggling between a 12-hour and 24-hour display
 5. Turn into an Analog Clock
+
