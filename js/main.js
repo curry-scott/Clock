@@ -24,7 +24,7 @@ function convertHourDefault() {
 }
 
 
-setInterval(displayClock, 1000);
+setInterval(displayClock, 10);
 
 function displayClock() {
     
