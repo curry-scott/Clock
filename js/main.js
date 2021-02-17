@@ -1,14 +1,21 @@
+let clock = document.getElementById('clock');
 let militaryTime = false;
 
+<<<<<<< HEAD
 let clock = document.getElementById('clock');
 
+=======
+>>>>>>> d97179ebc7374cf00521ba40284b7a13b281b802
 const convertToTwelve = document.querySelector('.twelveButton');
 const convertToTwentyFour = document.querySelector('.twenty-fourButton');
 
 convertToTwelve.addEventListener('click', convertHourDefault);
 convertToTwentyFour.addEventListener('click', convertHourToMilitary);
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d97179ebc7374cf00521ba40284b7a13b281b802
  function convertHourToMilitary() {
 
     if (militaryTime === false) {
@@ -24,6 +31,16 @@ function convertHourDefault() {
 }
 
 
+<<<<<<< HEAD
+=======
+function convertHourDefault() {
+    if (militaryTime === true) {
+        militaryTime = false;
+    }
+
+}
+
+>>>>>>> d97179ebc7374cf00521ba40284b7a13b281b802
 setInterval(displayClock, 10);
 
 function displayClock() {
