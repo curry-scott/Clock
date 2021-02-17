@@ -1,4 +1,5 @@
 let clock = document.getElementById('clock');
+
 const convertToTwelve = document.querySelector('.twelveButton');
 const convertToTwentyFour = document.querySelector('.twenty-fourButton');
 convertToTwelve.addEventListener('click', convertHourDefault);
@@ -7,10 +8,39 @@ convertToTwentyFour.addEventListener('click', convertHourToMilitary);
 let militaryTime = false;
 
  function convertHourToMilitary() {
+
+let militaryTime = false;
+
+const convertToTwelve = document.querySelector('.twelveButton');
+const convertToTwentyFour = document.querySelector('.twenty-fourButton');
+
+convertToTwelve.addEventListener('click', convertHourDefault);
+convertToTwentyFour.addEventListener('click', convertHourToMilitary);
+
+ function convertHourToMilitary() {
+
+
+const convertToTwelve = document.querySelector('.twelveButton');
+const convertToTwentyFour = document.querySelector('.twenty-fourButton');
+convertToTwelve.addEventListener('click', convertHourDefault);
+convertToTwentyFour.addEventListener('click', convertHourToMilitary);
+
+let militaryTime = false;
+
+ function convertHourToMilitary() {
+
     if (militaryTime === false) {
         militaryTime = true;
+
     }
 }
+function convertHourDefault() {
+    if (militaryTime === true) {
+        militaryTime = false;
+    }
+
+}
+
 function convertHourDefault() {
     if (militaryTime === true) {
         militaryTime = false;
@@ -22,8 +52,16 @@ setInterval(displayClock, 10);
 
 function displayClock() {
 
+
+setInterval(displayClock, 10);
+
+function displayClock() {
+
+
     let currentTime = new Date();
+
     let hoursin24 = currentTime.getHours();
+
     let minutes = currentTime.getMinutes();
     let seconds = currentTime.getSeconds();
     let amOrPm = '';
@@ -36,10 +74,12 @@ function displayClock() {
     }
   
     if (hoursin24 > 12 & militaryTime === false) {
+
         hoursin24 = (24 - hoursin24) - 12;
     }
 
     hoursin12 = Math.abs(hoursin24);
+
     if (hoursin12 < 10) {
         hoursin12 = '0' + hoursin12;
     }
