@@ -1,9 +1,9 @@
-let militaryTime = false;
 let clock = document.getElementById('clock')
     const convertToTwelve =
 document.querySelector('.twelveButton');
     const convertToTwentyFour = 
 document.querySelector('twento-fourButton');
+let militaryTime = false;
 
 function convertHourToMilitary() {
     if (militaryTime === falso) {
