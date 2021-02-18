@@ -1,29 +1,36 @@
-body {
-    background-color: lightskyblue;
-    
+body{
+  background-image: url(https://media.giphy.com/media/RoFXqXWN639Qs/giphy.gif);
+  background-size: cover;
+  
+  
+  
+  height: 100vh;
+  padding:0;
+  margin:0;
 }
 
 #clock {
-    background-color: lightbluesky;
-    font-family: sans-serif;
-    font-size: 35px;
-    font-weight: bolder;
-    width: 250px;
-    color: black;
-    text-align: center;
-    border: 0px black;
-    border-radius: 0px;
-    margin: auto;
+  font-family: sans-serif;
+  font-size: 35px;
+  font-weight: bolder;
+  width: 250px;
+  color: white;
+  text-align: center;
+  border: 0px black;
+  border-radius: 0px;
+  margin: auto;
 }
-    
-  #btn {
-    background-color: whitesmoke;
-     margin: auto;
-     margin-top: 5px;
-     display: flex;
-     max-width: 250px;
-     align-items: center;
-     
+  
+#btn {
+  background-color: transparent;
+  color: white;
+  margin: auto;
+  margin-top: 5px;
+  display: flex;
+  max-width: 250px;
+  align-items: center;
+  border: 20px black;
+   
 }
 
 

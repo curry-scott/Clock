@@ -15,6 +15,7 @@ function convertHourDefault() {
     if (militaryTime === true) {
         militaryTime = false;
     }
+
 }
 
 setInterval(displayClock, 10);
