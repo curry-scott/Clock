@@ -34,7 +34,7 @@ function displayClock() {
     else{
         amOrPm = 'PM';
     }
-  
+    
     if (hoursin24 > 12 & militaryTime === false) {
         hoursin24 = (24 - hoursin24) - 12;
     }
