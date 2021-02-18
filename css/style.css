@@ -17,6 +17,7 @@ body{
   border-radius: 0px;
   margin: auto;
   margin-top: 150px;
+  margin-left: 350px;
   
 }
   
@@ -31,6 +32,8 @@ body{
   max-width: 250px;
   align-items: center;
   border: 20px black;
+  margin-left: 425px;
+  
    
 }
 
