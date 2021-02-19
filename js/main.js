@@ -1,6 +1,6 @@
 let clock = document.getElementById('clock');
-const convertToTwelve = document.querySelector('.twelveButton');
-const convertToTwentyFour = document.querySelector('.twenty-fourButton');
+const convertToTwelve = document.querySelector('.btn');
+const convertToTwentyFour = document.querySelector('.btn');
 convertToTwelve.addEventListener('click', convertHourDefault);
 convertToTwentyFour.addEventListener('click', convertHourToMilitary);
 
