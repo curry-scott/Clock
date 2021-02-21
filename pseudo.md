@@ -38,16 +38,16 @@
    ELSE:
       Continue to show 12 hour format.
       LISTENB: for "12, 24 Toggle Button Click. 
+    
+    - Will reverse command
 
-   Same function should be called if the user is in the 24 hour format.
-   "12, 24 Hour Toggle Button" Should be looked to this function. 
+  
         
   
   
 
 
 
-  <summary><strong>Week Three</strong></summary>
-  <br>
+  <]
  
   
