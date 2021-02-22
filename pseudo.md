@@ -42,17 +42,9 @@
     - Will reverse command
 
 
-  - FUNCTION: clock time increase:
-      - "setInterval()" will come in. 
-         FOR: every second: 
-      Seconds increases.
-  - 
-        
   
   
 
 
-
-  <]
  
   
