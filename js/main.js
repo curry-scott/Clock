@@ -22,6 +22,7 @@ function convertHourDefault() {
     }
 
 }
+
 //Clock displays in 1000 milliseconds in min
 setInterval(displayClock, 1000);
 
