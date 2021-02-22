@@ -1,13 +1,13 @@
 //Creating clock
 const clock = document.getElementById('clock');
 
-//Creating btn for 24 hour adn 12 hour
+//Creating toggle btn for 24 hour adn 12 hour. Will switch the time.
 const convertToTwelve = document.querySelector('.btn');
 const convertToTwentyFour = document.querySelector('.btn');
 convertToTwelve.addEventListener('click', convertHourDefault);
 convertToTwentyFour.addEventListener('click', convertHourToMilitary);
 
-//If in military tim then false
+//If in military time then false
 let militaryTime = false;
 
 //Will switch from regular time to military

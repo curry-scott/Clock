@@ -26,22 +26,27 @@
  ## <strong>Function<strong>
  
  ### Show/Set Current Time: 
- - Function should be called AUTOMATICALLY when the user opens the page.
+ - Function shows with page is opened
  - Set: Date object
  - Get: Current Time
  - Display: Current Time on the screen.
 
  ### Change Hour:
  - By Default, page will show 12 hour format. 
-    - IF: User clicks on the "12, 24 Hour Toggle Button" THEN
-      "The Clock" is going to change to 12 or 24 hour formats. 
+    - IF: User clicks on the "12-H "standard time"or "24-H militarytime" Toggle Button" THEN
+      "The Clock" will change to standard or military  hour formats. 
    ELSE:
       Continue to show 12 hour format.
-      LISTENB: for "12, 24 Toggle Button Click. 
+      12/24 Toggle Button Click. 
     
     - Will reverse command
 
-  
+
+  - FUNCTION: clock time increase:
+      - "setInterval()" will come in. 
+         FOR: every second: 
+      Seconds increases.
+  - 
         
   
   
